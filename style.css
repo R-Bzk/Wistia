@@ -19,8 +19,8 @@
   h1, p, a, span, li, button{
     font-family: "Walsheim Regular";
   }
-  /**** Header ********/
-  header {
+  
+header {
     display: flex;
     align-items: center;
     padding-right: 15px;
@@ -149,11 +149,11 @@
    
     margin: 0;
   }
-  /***********main***********/
+  
   .container-flex{
     display: flex;
   }
-  /**** Section 1 : Slide ********/
+  
   #slide{
     background-color:  #c896a5;
     display: flex;
@@ -256,7 +256,7 @@
     font-size: 18px;
     order:3;
   }
-  /********** Section 3 ***********/
+  
   section#parteners {
     padding: 100px 60px;
     margin: 0 auto;
@@ -269,7 +269,7 @@
       max-width: 160px;
     
   }
-  /****************/ 
+  
   #articles{
     padding: 60px 30px;
   }
@@ -316,7 +316,7 @@
     font-size: 18px;
   }
   
-  /****** Footer *****/
+  
   footer {
     background: #2a2d35;
   }
@@ -383,7 +383,7 @@
     padding: 0 45px;
   }
   
-/*section one css : */ 
+
 .video-description
 {
    font-size: 2em;
@@ -414,7 +414,7 @@ svg.twoIcon {
 {
     padding-left:350px ;
 }
-/*section two */  
+  
 .section-two 
 {
     display: flex;
@@ -471,7 +471,7 @@ svg.threeIcon {
 {
     fill: white;
 }
-/*section three */ 
+ 
 .section-three
 {
     display: flex;
@@ -525,7 +525,7 @@ svg.threeIcon {
     color: #363945;
     font-size: 18px;
 }
-/*footer*/ 
+ 
 .main-footer
 {
    display: flex;
